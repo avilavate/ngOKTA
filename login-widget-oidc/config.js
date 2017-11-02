@@ -23,8 +23,8 @@ angular
 .module("WidgetConfig", [])
 .constant("CONFIG", {
     options : {
-	      baseUrl: "https://example.oktapreview.com",
-        clientId: "8p10aJwClXD61oFx3SNT",
+	      baseUrl: "http://localhost:8080",
+        clientId: "0oaco08qr07M3irIi0h7",
         redirectUri: "http://localhost:8080",
   	    authParams: {
     	      responseType: ["id_token", "token"],

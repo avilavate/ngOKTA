@@ -2,8 +2,8 @@ angular
 .module("OktaConfig", [])
 .constant("CONFIG", {
     options : {
-	    url: "https://example.oktapreview.com",
-	    clientId: "8p10aJwClXD61oFx3SNT",
+	    url: "dev-342341.oktapreview.com",
+	    clientId: "0oaco08qr07M3irIi0h7",
       redirectUri: "http://localhost:8080",
   	  authParams: {
     	  responseType: ["id_token", "token"],
